@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* Fonte semelhante a uma agenda */
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo mais neutra */
+    padding-top: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    height: 50px; /* Imagem maior para caber num layout de agenda */
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Cor de texto mais escura e neutra */
+}
+
+.container {
+    max-width: 800px; /* Largura reduzida para parecer com uma lista de contatos */
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas como uma agenda de papel */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Leve sombra para destaque */
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+form input#nome-contatos, form input#numero-contatos {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-right: 10px;
+    
+}
+
+form button {
+    background-color: #007bff; /* Cor azul comum em agendas */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 5px; /* Mantendo estilo arredondado */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remover espaços entre bordas */
+}
+
+table th {
+    border-bottom: 2px solid #333; /* Borda mais grossa para cabeçalhos */
+    padding: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+table td {
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc; /* Estilo mais leve para divisões */
+}
+
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border-radius: 3px;
+}
